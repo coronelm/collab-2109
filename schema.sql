@@ -4,3 +4,5 @@ INSERT INTO teachers (id, name, subject) VALUES
 (01, 'Mr. Raymond', 'Physics'),
 (02, 'Ms. Marielle', 'Data Base Management'),
 (03, 'Ajarn. Chie', 'Advance Comprog');
+ALTER TABLE teachers
+ADD COLUMN department TEXT;
