@@ -6,3 +6,6 @@ INSERT INTO teachers (id, name, subject) VALUES
 (03, 'Ajarn. Chie', 'Advance Comprog');
 ALTER TABLE teachers
 ADD COLUMN department TEXT;
+UPDATE teachers
+SET department = 'College of Information in Computing Sciences'
+WHERE name = 'Ms. Marielle';
