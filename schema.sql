@@ -1,1 +1,2 @@
 CREATE DATABASE school_db;USE school_db;CREATE TABLE students (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), grade INT);
+CREATE TABLE users (user_id INT, username VARCHAR(70), role VARCHAR(70));
