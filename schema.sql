@@ -8,3 +8,5 @@ INSERT INTO teachers (id, name, subject) VALUES
 (02, 'Ms. Marielle', 'Data Base Management'),
 (03, 'Ajarn. Chie', 'Advance Comprog'); >> schema.sql
 ;
+ALTER TABLE teachers
+ADD COLUMN department TEXT;
