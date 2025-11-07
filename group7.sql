@@ -1,4 +1,4 @@
 CREATE TABLE subjects (subject_id INT PRIMARY KEY, subject_name VARCHAR(100));
-[200~INSERT INTO subjects VALUES (1, 'Mathematics'), (2, 'English'), (3, 'Science');
+INSERT INTO subjects VALUES (1, 'Mathematics'), (2, 'English'), (3, 'Science');
 ALTER TABLE subjects ADD units INT;
 Update subjects SET units = 3 WHERE subjects_id = 1;
