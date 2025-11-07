@@ -6,3 +6,4 @@ CREATE TABLE enrollments (
 INSERT INTO enrollments VALUES
 (1, 101, 201),
 (2, 102, 202);
+ALTER TABLE enrollments ADD COLUMN school_year VARCHAR(9);
