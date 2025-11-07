@@ -8,3 +8,8 @@ CREATE TABLE enrollments (
   student_id INT,
   class_id INT
 );
+CREATE TABLE enrollments (
+  enrollment_id INT PRIMARY KEY,
+  student_id INT,
+  class_id INT
+);
